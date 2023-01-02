@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navigationbar {
+    background-color: #333;
+    position: sticky;
+    z-index: 2;
+    overflow: none;
+}
+
+.navbar {
+    padding: 10px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.navigationbar .navbar li {
+    color: aliceblue;
+    list-style: none;
+    padding: 10px 60px;
+}
+
+.navigationbar .navbar li:hover {
+    color: aliceblue;
+
+    background-color: #06b995;
+    list-style: none;
+    padding: 10px 60px 10px 60px;
+    border-radius: 68%;
+}
+
+.navigationbar .navbar ul {
+    display: flex;
+    justify-self: end;
+}
+
+.navigationbar .navbar img {
+    width: 20%;
+}
+
+.footer {
+    background-color: #333;
+}
+
+.footer .footerdiv {
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer .footerdiv p,
+ul {
+    list-style: none;
+    padding: 20px;
+
+}
+
+.footer .footerdiv li {
+    list-style: none;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.footer .footerdiv input {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.footer .footerdiv button {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #06b995;
+    border: none;
+}
+
+.footer .footerdiv button:hover {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #665807;
+    border: none;
+}
+
+.footer .footerdiv .lastdiv {
+    display: grid;
+    grid-column: 1 /span3;
+   background-color: #444;
+}
+.content{
+height: fit-content;
+
+}
+.content .essay{
+    padding: 40px;
+    background-color:#f3f3f3 ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5%;
+    justify-items: center;
+}
+
+.content .essay .essayleft{
+    background-color:#06b995;
+    width: 70%;
+    /* justify-self: center; */
+    padding: 30px;
+   border-radius: 15px;
+}
+.content .essay .essayright{
+    text-align: justify;
+    display: grid;
+    /* justify-self: center; */
+    grid-row: 1 /span 3;
+}
+.content .essay .essayleft button{
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color:#333;
+    border: none;
+}
+.content .essay button:hover {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #665807;
+    border: none;
+}
